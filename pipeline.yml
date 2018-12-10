@@ -1,0 +1,12 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "sports-store-ng5-ch7-pipeline"
+spec:
+  source:
+    git:
+      uri: "https://github.com/saroj3k/sports-store-ng5-ch7"
+      ref: "master"
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfilePath: jenkins/Jenkinsfile
