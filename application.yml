@@ -123,7 +123,7 @@ items:
       app: sports-store-ng5-ch7
     name: sports-store-ng5-ch7
   spec:
-    host: sports-store-ng5-ch7-myproject.192.168.64.4.nip.io
+    host: sports-store-ng5-ch7-myproject.192.168.99.101.nip.io
     port:
       targetPort: 8080-tcp
     to:
@@ -137,7 +137,7 @@ items:
       - lastTransitionTime: 2018-01-05T09:32:19Z
         status: "True"
         type: Admitted
-      host: sports-store-ng5-ch7-myproject.192.168.64.4.nip.io
+      host: sports-store-ng5-ch7-myproject.192.168.99.101.nip.io
       routerName: router
       wildcardPolicy: None
 kind: List
